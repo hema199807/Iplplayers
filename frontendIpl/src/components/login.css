@@ -1,0 +1,82 @@
+#login-background-img{
+    height:100vh;
+    position: relative;
+}
+#login-background-img > img{
+        
+    width: 100%;
+    height:100%;
+}
+
+#login-form{
+    width: 40%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 16px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 105px;
+    left:30%;
+   
+}
+#email{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:5px 0 5px 5px;
+    font-size: 20px;
+}
+#log-password{
+    border: 2px solid black;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding:5px 0 5px 5px;
+}
+#input-div{
+    margin-top: 30px;
+}
+#signupmsg-div{
+    margin-top:20px;
+    font-weight: 600;
+}
+#log-btn{
+    margin-left: 20px;
+    margin-right: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#clear-btn{
+    background-color:teal;
+    color:white;
+    border-radius: 5px;
+}
+#cancel-btn{
+    margin-left: 136px;
+    margin-right: 15px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+#forgpass-btn{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+#Finput-div{
+    padding:80px 100px 0 100px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#Femail{
+    border-radius: 5px;
+    padding:5px 0 5px 10px;
+    font-size: 20px;
+}
+#pr-btn{
+    margin-left:45%;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+}

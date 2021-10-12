@@ -1,0 +1,70 @@
+#admin-main-div{
+    width:100%;
+    min-height: 100vh;
+    padding: 8% 4% 6% 4%;
+    box-sizing: border-box;
+    background-image:linear-gradient(to right, #3181BE,#061536,#3181BE) ;
+    /* overflow: auto; */
+}
+#players-details-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+#display-teamname{
+    margin-bottom: 24px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.players-wrapper{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 17px;
+    border-radius: 10px;
+    width: 32%;
+}
+.players-wrapper>h3{
+    font-size: 23px;
+    padding-left: 10px;
+}
+.players-wrapper >p{
+    font-size: 18px;
+    font-weight: 600;
+    color:darkslategray;
+}
+.pagination{
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 550px;
+    margin-top: -3px; */
+}
+#align-page-no{
+
+    text-align: center;
+}
+.pagination > button{
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.active{
+    background-color:darkturquoise;
+}
+#add-player{
+    
+    background-color: white;
+    color: slateblue;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left:89%;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,85 @@
+#top-bar{
+    background-image: linear-gradient(to right, #3181BE,#061536,#3181BE); 
+    width:100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2px 8%;
+    box-shadow: 0 2px 5px #ccc;
+}
+#logo{
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+#logo >a > img{
+    width:100px;
+    border-radius: 5px;
+}
+#title{
+
+    font-size: 30px;
+    margin-top:10px;
+    font-weight:700;
+    color:chartreuse;
+    text-shadow: 1px 3px 2px blueviolet;
+}
+#access{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hlogin-btn{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#hsign-btn{
+    border-radius: 5px;
+}
+.user-logo{
+    font-size: 25px;
+    margin-left: 30px;
+    position:relative;
+    color: white;
+    cursor: pointer;
+    max-width: 226px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#user-span{
+    color:white;
+    font-size: 25px;
+    margin-left:10px;
+
+}
+
+.sign-out{
+    display: none;
+    background-color: white;
+    width: 340px;
+    position: absolute;
+    top: 49px;
+    right: 91px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.user-out{
+    display: inline-block;   
+}
+#user-name{
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
