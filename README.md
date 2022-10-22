@@ -10,9 +10,5 @@ in this use case home page is same but in details page user can able to view and
 RUN the backend code:-node server.js
 RUN the frontend code:npm start
 
-it is a deployed code if you clone this code to your local system if it works fine then no issues if not change the urls where ever you see heroku.com there you have to give http://localhost:backend_port_number  and where ever you see github.io there you have to give your http://localhost:frontend_port_number
-
-Here is the total application deployed link you can see live website https://hema199807.github.io/webappfrontend/#/
-
-Note:- it is not a responsive website, this website works only in Laptops/desktop
+clone and change the urls. replace "heroku.com" with "http://localhost:backend_port_number"  and "github.io" with "http://localhost:frontend_port_number"
 
